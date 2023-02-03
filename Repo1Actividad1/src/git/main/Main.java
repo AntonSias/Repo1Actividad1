@@ -1,10 +1,16 @@
 package git.main;
 
+import anton.Anton;
+
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hola soy Minerva");
-
+		
+//----------PARTE DE ANTON-----------------------------
+		Anton anton = new Anton();
+		
+		System.out.println(anton.imprimirNombre());
+//-----------------------------------------------------
 	}
 
 }
