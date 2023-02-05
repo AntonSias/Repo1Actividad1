@@ -16,6 +16,7 @@ public class Main {
 //------------------PARTE DE SERGI------------------
     Sergio sergio = new Sergio();
     System.out.println(sergio.imprimirNombre());
+    System.out.println(sergio.imprimirHobbies());
 
 //-------------------------------------------------
 	}

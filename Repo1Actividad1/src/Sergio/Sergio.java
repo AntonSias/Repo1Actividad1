@@ -5,6 +5,7 @@ public class Sergio {
 	
 		
 		private String nombre = "Sergio";
+		private String hobbies = "Leer, ver cine, y viajar";
 		
 		
 		//Getter and Setter
@@ -19,16 +20,28 @@ public class Sergio {
 
 		
 		// Constructores
-		public Sergio(String nombre) {
-			super();
-			this.nombre = nombre;
+
+
+public String getHobbies() {
+			return hobbies;
 		}
-//Constructor sin parametro
+
+		public void setHobbies(String hobbies) {
+			this.hobbies = hobbies;
+		}
+
+		//Constructor sin parametro
 		public Sergio() {
 			super();
 		}
 
 		
+		public Sergio(String nombre, String hobbies) {
+			super();
+			this.nombre = nombre;
+			this.hobbies = hobbies;
+		}
+
 		// to String
 		@Override
 		public String toString() {
@@ -40,6 +53,13 @@ public class Sergio {
 // Método
 	public String imprimirNombre() {
 		return "Hola, soy " + this.nombre;
+	}	
+		
+    public String imprimirHobbies() {
+    	return "Mis hobbies son " + this.hobbies;
+		
+		
+		
 	}
 		
 		
