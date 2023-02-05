@@ -2,7 +2,6 @@ package Sergio;
 
 public class Sergio {
 
-
 		
 		private String nombre = "Sergio";
 		private String hobbies = "Leer, ver cine, y viajar";
@@ -58,12 +57,5 @@ public String getHobbies() {
     public String imprimirHobbies() {
     	return "Mis hobbies son " + this.hobbies;
 		
-    }
-
-
-
-
-    }
-	
-	
-    
+    } 
+}
