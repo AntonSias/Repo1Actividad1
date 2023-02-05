@@ -12,12 +12,15 @@ public class Main {
 		Anton anton = new Anton();
 		
 		System.out.println(anton.imprimirNombre());
-//-----------------------------------------------------
-	
+		System.out.println(anton.imprimirHobbies());
 
-Sergio sergio = new Sergio();
-  System.out.println(sergio.imprimirNombre());
-  System.out.println(sergio.imprimirHobbies());
+//------------------PARTE DE SERGI------------------
+
+    Sergio sergio = new Sergio();
+    System.out.println(sergio.imprimirNombre());
+    System.out.println(sergio.imprimirHobbies());
+
+
 
 //-------------------------------------------------
   Minerva minerva = new Minerva();
