@@ -30,8 +30,9 @@ public class Anton {
 		return "Hola, soy " + this.nombre;
 	}
 
-	
-	
-	
+	public String imprimirHobbies(){
+
+		return "Hacer deporte, tomar algo con mis amigos, jugar a videojuegos";
+	}
 
 }
