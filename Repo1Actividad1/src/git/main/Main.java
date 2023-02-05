@@ -3,6 +3,7 @@ package git.main;
 import Minerva.Minerva;
 import Sergio.Sergio;
 import anton.Anton;
+import silvian.Silvian;
 
 public class Main {
 
@@ -26,6 +27,12 @@ public class Main {
   Minerva minerva = new Minerva();
   System.out.println(minerva.imprimirNombre());
   System.out.println(minerva.imprimirHobbies());
+	
+//----------SILVIAN----------------------------------
+  Silvian silvian = new Silvian();
+  System.out.println(silvian.imprimirNombre());
+  System.out.println(silvian.imprimirHobbies());
+  
 	}
 
 	
