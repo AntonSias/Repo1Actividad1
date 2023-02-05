@@ -22,6 +22,7 @@ Sergio sergio = new Sergio();
 //-------------------------------------------------
   Minerva minerva = new Minerva();
   System.out.println(minerva.imprimirNombre());
+  System.out.println(minerva.imprimirHobbies());
 	}
 
 	
