@@ -1,5 +1,6 @@
 package git.main;
 
+import Sergio.Sergio;
 import anton.Anton;
 
 public class Main {
@@ -13,7 +14,8 @@ public class Main {
 //-----------------------------------------------------
 	
 //------------------PARTE DE SERGI------------------
-System.out.println("Hola, me llamo Sergio");
+    Sergio sergio = new Sergio();
+    System.out.println(sergio.imprimirNombre());
 
 //-------------------------------------------------
 	}
