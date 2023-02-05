@@ -11,6 +11,11 @@ public class Main {
 		
 		System.out.println(anton.imprimirNombre());
 //-----------------------------------------------------
+	
+//------------------PARTE DE SERGI------------------
+System.out.println("Hola, me llamo Sergio");
+
+//-------------------------------------------------
 	}
 
 }
