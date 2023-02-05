@@ -11,6 +11,7 @@ public class Main {
 		Anton anton = new Anton();
 		
 		System.out.println(anton.imprimirNombre());
+		System.out.println(anton.imprimirHobbies());
 //-----------------------------------------------------
 	
 //------------------PARTE DE SERGI------------------
