@@ -14,6 +14,7 @@ public class Main {
 		
 		System.out.println(anton.imprimirNombre());
 		System.out.println(anton.imprimirHobbies());
+		System.out.println(anton.imprimirComidasFavoritas());
 
 //------------------PARTE DE SERGI------------------
 

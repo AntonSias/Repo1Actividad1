@@ -4,6 +4,7 @@ public class Anton {
 	
 	//Atributos de la clase
 	private String nombre = "Antón";
+	private String comida = "Pasta, Ensalada y hamburguesas";
 	
 	//Constructores de la clase
 	public Anton() {
@@ -33,6 +34,10 @@ public class Anton {
 	public String imprimirHobbies(){
 
 		return "Hacer deporte, tomar algo con mis amigos, jugar a videojuegos";
+	}
+	
+	public String imprimirComidasFavoritas() {
+		return "Mis comidas favoritas son: " + this.comida;
 	}
 
 }
