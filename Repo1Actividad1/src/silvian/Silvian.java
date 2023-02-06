@@ -34,5 +34,9 @@ public class Silvian {
 
 			return "Jugar futbol , ir al gimnasio y leer sobre los coches ";
 	
-}
+		}
+		
+		public String comidasFavoritas() {
+			return "pulpo a la gallega, cocido, marisco";
+		}
 }
