@@ -4,7 +4,7 @@ public class Anton {
 	
 	//Atributos de la clase
 	private String nombre = "Antón";
-	private String comida = "Pasta, Ensalada y hamburguesas";
+	
 	
 	//Constructores de la clase
 	public Anton() {
@@ -37,7 +37,7 @@ public class Anton {
 	}
 	
 	public String imprimirComidasFavoritas() {
-		return "Mis comidas favoritas son: " + this.comida;
+		return "Mis comidas favoritas son: pasta, ensalada y hamburguesa";
 	}
 
 }
