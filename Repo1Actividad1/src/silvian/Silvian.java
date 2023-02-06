@@ -33,6 +33,8 @@ public class Silvian {
 		public String imprimirHobbies(){
 
 			return "Jugar futbol , ir al gimnasio y leer sobre los coches ";
+			
+		
 	
 }
 }
