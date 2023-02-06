@@ -5,6 +5,7 @@ public class Anton {
 	//Atributos de la clase
 	private String nombre = "Antón";
 	
+	
 	//Constructores de la clase
 	public Anton() {
 		super();
@@ -34,10 +35,10 @@ public class Anton {
 
 		return "Hacer deporte, tomar algo con mis amigos, jugar a videojuegos";
 		
-		public String imprimirComidasFavoritas() {
-			return "pizza, marisco y pasta";
-		}
+	}
 	
+	public String imprimirComidasFavoritas() {
+		return "pizza, marisco y pasta";
 	}
 
 }
