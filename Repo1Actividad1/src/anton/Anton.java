@@ -34,10 +34,11 @@ public class Anton {
 	public String imprimirHobbies(){
 
 		return "Hacer deporte, tomar algo con mis amigos, jugar a videojuegos";
+		
 	}
 	
 	public String imprimirComidasFavoritas() {
-		return "Mis comidas favoritas son: pasta, ensalada y hamburguesa";
+		return "pizza, marisco y pasta";
 	}
 
 }
